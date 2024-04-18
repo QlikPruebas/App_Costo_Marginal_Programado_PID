@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "b0041772-767d-431f-b4ec-a016c3eb642f",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vSinFiltrosComparacionPCP",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "{<nombre_barra={'Quillota220'},fuente={'PCP'},hidro,bloque,etapa,fecha_hora_version>}",
+  "tags": []
+}

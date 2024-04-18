@@ -1,0 +1,29 @@
+{
+  "qInfo": {
+    "qId": "1b384a5a-172d-418d-b9b9-887b80f10e0d",
+    "qType": "measure"
+  },
+  "qMeasure": {
+    "qLabel": "CMG PID",
+    "qDef": "AVG(\r\n\t$(=\n      IF(GetSelectedCount(Fecha)=0 AND GetSelectedCount(Fecha_Hora)=0 AND GetSelectedCount(Mes)=0 AND GetSelectedCount(Año)=0 AND GetSelectedCount(Fecha_Efectiva)=0 AND GetSelectedCount(fecha_version_indhor)=0 AND GetSelectedCount(fecha_version)=0 AND GetSelectedCount(fecha_hora_version)=0 OR GetPossibleCount(fecha_hora_version)=2,\nIF(GetSelectedCount(nombre_barra)>0,\n            \tvFiltrosBarrasPID, // No filtro y si barra\n      \t\t\tvFiltrosPID) // No filtro y no barra\n            ,\n          \tIF(GetSelectedCount(nombre_barra)>0,\n          \t\tvSinFiltrosPID, //Filtro y si barra\n          \t\tvSinFiltrosPIDBarrasPredefinidas // Filtro y no barra \n          \t)\n      )\n    )\ncmg)\n",
+    "qGrouping": "N",
+    "qExpressions": [],
+    "qActiveExpression": 0,
+    "qLabelExpression": "='Costo Marginal [USD/MWh]'",
+    "qNumFormat": {
+      "qType": "F",
+      "qnDec": 2,
+      "qUseThou": 0,
+      "qFmt": "#,##0.0",
+      "qDec": ".",
+      "qThou": ","
+    },
+    "coloring": {},
+    "isCustomFormatted": false
+  },
+  "qMetaDef": {
+    "title": "CMG PID",
+    "description": "",
+    "tags": []
+  }
+}

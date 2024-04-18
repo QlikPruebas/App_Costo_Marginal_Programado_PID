@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "8078a3ee-bc10-400f-bf72-4463778b4c27",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vSinFiltrosComparacionPLP",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "{<nombre_barra={'Quillota220'},fuente={'PLP'},HidroFiltro={'MEDIA'},fecha_hora_version>}",
+  "tags": []
+}

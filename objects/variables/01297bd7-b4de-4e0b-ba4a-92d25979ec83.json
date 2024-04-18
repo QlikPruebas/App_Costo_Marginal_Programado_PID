@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "01297bd7-b4de-4e0b-ba4a-92d25979ec83",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vFiltrosBarrasPCP",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "{<fuente={'PCP'},hidro,bloque,etapa,fecha_hora_version, Fecha = {\">=$(=DATE(MAX({<fuente = {'PCP'},hidro,bloque,etapa>}Fecha)-7))\"}>}",
+  "tags": []
+}

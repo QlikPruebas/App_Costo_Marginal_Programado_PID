@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "99bf292c-7607-4af5-b400-4d1e89633924",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vSinFiltrosComparacionPID",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "{<nombre_barra={'Quillota220'},fuente={'PID'},hidro,bloque,etapa>}",
+  "tags": []
+}
